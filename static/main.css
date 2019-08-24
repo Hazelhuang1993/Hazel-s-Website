@@ -1,0 +1,338 @@
+
+
+/* main webpage */
+
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    background-color: rgba(216, 216, 216, 0.4);
+}
+
+
+body {
+    width: 100%;
+    height: auto;
+    background-image: url(../static/transparent-picture.png);
+    background-size: cover;
+}
+
+
+.page {
+    background-color: rgba(216, 216, 216, 0.4);
+}
+
+
+/* header */
+
+.header-pc {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px rgb(190, 190, 190);
+    background-color: whitesmoke;
+}
+
+.page-header {
+    margin: 0 !important;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    font-size: 22px;
+}
+
+.name-color-different {
+    color: rgb(97, 97, 97);
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+.site-main-menu li {
+    display: inline-block;
+}
+
+.site-main-menu a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(102, 102, 102);
+}
+
+
+.site-main-menu a:hover { 
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+
+/* first main content page */
+
+.section-style {
+    width: 100%;
+    height: auto;
+    display: none;
+   
+}
+
+
+.section-inner-page {
+    width: 80%;
+    margin: 30px auto 0 auto;
+    background-color: transparent;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgb(190, 190, 190);
+    
+}
+
+.page-header {
+    background-color: rgba(57, 134, 179, 0.5);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+
+.photo img {
+    border-radius: 100%;
+    border: 2px solid white;
+    box-shadow: 2px 2px 10px rgb(190, 190, 190);
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.title {
+    padding-top: 15px;
+}
+
+.job-title {
+    font-size: 25px;
+    text-align: center;
+}
+
+.social-media {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.social-media a {
+    color: rgb(75, 74, 74);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.page-content {
+    background-color: rgb(240, 240, 240);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 50px;
+    
+}
+
+.contact-list {
+    padding: 20px;
+    
+}
+
+
+.contact-list .title-color-different {
+    padding-left: 40px;
+    color: rgb(102, 102, 102);
+    text-align: left;
+    margin: 10px;
+   
+}
+
+.list-title {
+    width: 50px;
+    height: 17px;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+/* second main content page */
+
+.page-header h1 {   
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+}
+
+.timeline-item {
+    border-left: 5px solid rgba(16, 97, 145, 0.3);
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px rgb(190, 190, 190);
+}
+
+.timeline-item:hover {
+    box-shadow: 2px 2px 10px rgb(102, 102, 102);
+}
+
+.item-name {
+    font-style: italic;
+    display: block;
+}
+
+.item-location {
+    display: block;
+}
+
+.item-period {
+    color: rgb(102, 102, 102);
+}
+
+.box-experience {
+    padding-bottom: 30px;
+}
+
+.skill-info {
+    padding: 20px;
+}
+
+.skill-container {
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    background-color:  rgba(216, 216, 216, 0.5);
+    border: 1px solid rgba(102, 102, 102, 0.2);
+}
+
+.percentage-bar1 {
+    width: 70%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(45, 152, 223, 0.3);
+}
+
+.percentage-bar2 {
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(45, 152, 223, 0.3);
+}
+
+.percentage-bar3 {
+    width: 85%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(45, 152, 223, 0.3);
+}
+
+.percentage-bar4 {
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(45, 152, 223, 0.3);
+}
+
+.active {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+/* third main content page */
+
+.service-box {
+    text-align: center;
+}
+
+/* fourth main content page */
+
+.box-title {
+    text-align: left;
+    margin: 20px 0;
+}
+
+i {
+    font-size: 20px;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+iframe {
+    border-radius: 30px;
+    border: 2px solid rgb(223, 222, 222);
+}
+
+.contact-information {
+    margin: 30px 0;
+}
+
+.contact-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.contact-text {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px 20px;
+}
+
+
+.form-content {
+    margin: 25px 0;
+    
+}
+
+.form-content input {
+    width: 390px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(216, 216, 216, 0.2);
+    border-color: rgba(216, 216, 216, 0.5);
+}
+
+textarea {
+    width: 390px;
+    height: 150px;
+    margin: 30px;
+    border-radius: 5px;
+    background-color: rgba(216, 216, 216, 0.2);
+    border-color: rgba(136, 135, 135, 0.3);
+}
+
+.form-submit-style {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgba(57, 134, 179, 0.5);
+    box-shadow: 2px 2px 10px rgb(190, 190, 190);
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px 150px;
+}
+
+/* footer */
+
+footer {
+    background-color: rgba(216, 216, 216, 0.4);
+    width: 100%;
+}
+
+.copyrights {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+
